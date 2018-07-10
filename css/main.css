@@ -21,10 +21,20 @@ h1{
 .contenedor{
     padding:2em;
 }
-
+.parrafo {
+    color: black;
+    text-shadow: 1px 1px 1px white;    
+}
 body {
   background: CadetBlue ;
   color:white;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: white;
 }
 footer a {
   font-weight: bold;
