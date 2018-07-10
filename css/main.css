@@ -1,6 +1,16 @@
-* {
-font-family: 'Muli', sans-serif;
-font-size:19px;
+body {
+    font-family: 'Muli', sans-serif;
+    font-size:19px;
+ background: CadetBlue ;
+  color:white;
+}
+section{
+overflow:hidden;
+flex:1;    
+}
+footer {
+  background: black;
+  text-align: center;
 }
 
 .main{
@@ -8,11 +18,8 @@ font-size:19px;
   flex-direction: column;
   height: 100vh;
 }
-section{
-overflow:hidden;
-flex:1;    
-}
-h1{
+
+.principio{
   color:black;
   text-align: center;
   font-weight: 900;
@@ -25,10 +32,7 @@ h1{
     color: black;
     text-shadow: 1px 1px 1px white;    
 }
-body {
-  background: CadetBlue ;
-  color:white;
-}
+
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
@@ -48,8 +52,4 @@ footer a {
 section a {
   font-weight: bold;
   color: white;
-}
-footer {
-  background: black;
-  text-align: center;
 }
