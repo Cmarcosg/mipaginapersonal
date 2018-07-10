@@ -1,0 +1,45 @@
+* {
+font-family: 'Muli', sans-serif;
+font-size:19px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+section{
+overflow:hidden;
+flex:1;    
+}
+h1{
+  color:black;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.contenedor{
+    padding:2em;
+}
+
+body {
+  background: CadetBlue ;
+  color:white;
+}
+footer a {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1vw 2vw;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  color: white;
+}
+section a {
+  font-weight: bold;
+  color: white;
+}
+footer {
+  background: black;
+  text-align: center;
+}
