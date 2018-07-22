@@ -4,6 +4,32 @@ body {
  background: CadetBlue ;
   color:white;
 }
+header{
+  background-image: url(../imagenes/Luces.gif);
+  background-repeat: no-repeat center ;   
+
+}
+.contenedor {
+	margin: auto;
+	display: table;
+}
+
+h1 { 
+	position: relative; 
+	float: left;
+	background-color:black ; opacity: 0.5;
+	color: #fff;
+	font-size: 2.5em;
+}
+
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: black;
+    border-left: 2px solid #000;
+    animation: escribir 5s steps(30);
+}
 div#imagen{
   width:379px;
   height:250px;
@@ -24,14 +50,15 @@ opacity: 1;
 }
 p#head{
   position:absolute;
-  font-size: 21px;
+  font-size: 24px;
+  text-align: center;
 }
 div#imagen2{
   width:379px;
   height:250px;
   margin-left: 450px;
   margin-top: -283px;
- background-image: url(../imagenes/HOBBIES.jpeg);
+ background-image: url(../imagenes/future.jpg);
 }
 div#info2{
   position: absolute;;
@@ -47,19 +74,21 @@ opacity: 1;
 }
 p#head2{
   position:absolute;
-  font-size: 21px;
+  font-size: 19px;
+  text-align: center;
 }
 div#imagen3{
-  width:383px;
-  height:333px;
+  width:379px;
+  height:250px;
   margin-left: 870px;
   margin-top: -250px;
  background-image: url(../imagenes/STUDIES.jpeg);
+ background-repeat: no-repeat;
 }
 div#info3{
-  position: absolute;;
-  width:383px;
-  height:333px;
+  position: absolute;
+  width:379px;
+  height:250px;
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 0.2;
   -moz-transition: opacity 0.2;
@@ -70,8 +99,18 @@ opacity: 1;
 }
 p#head3{
   position:absolute;
-  font-size: 21px;
+  font-size: 18px;
+  text-align: center;
 }
+
+#contenedor{
+  position:absolute;
+  width:100%;
+  height:100%;
+  font-size:3em;
+  overflow:hidden;
+}
+
 section{
 overflow:hidden;
 flex:1; 
@@ -79,14 +118,18 @@ flex:1;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-background-image: url(../imagenes/blockchain-g.gif);
-background-repeat: no-repeat center ;   
+width: auto;
+height:auto;
+background-color: gray;
 }
 footer {
-  background: black;
-  text-align: center;
+background-image: url(../imagenes/luces.gif);
+background-repeat: no-repeat center ;   
 }
-
+.type {
+	margin: auto;
+	display: table;
+}
 .main{
   display: flex;
   flex-direction: column;
@@ -120,23 +163,9 @@ footer a {
   letter-spacing: 0.05rem;
   color: white;
 }
-section a {
-  font-weight: bold;
-  color: white;
-}
-@keyframes animatedBackground {
-  from { background-position: 0 0; }
-  to { background-position: 100% 0; }
-}
-@-webkit-keyframes animatedBackground {
-  from { background-position: 0 0; }
-  to { background-position: 100% 0; }
-}
-@-ms-keyframes animatedBackground {
-  from { background-position: 0 0; }
-  to { background-position: 100% 0; }
-}
-@-moz-keyframes animatedBackground {
-  from { background-position: 0 0; }
-  to { background-position: 100% 0; }
+
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
 }
