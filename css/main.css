@@ -1,171 +1,158 @@
-body {
-    font-family: 'Muli', sans-serif;
-    font-size:19px;
- background: CadetBlue ;
-  color:white;
+body{
+    background-image:url(../imagenes/espacio.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
 }
-header{
-  background-image: url(../imagenes/Luces.gif);
-  background-repeat: no-repeat center ;   
-
-}
-.contenedor {
-	margin: auto;
-	display: table;
-}
-
 h1 { 
 	position: relative; 
-	float: left;
-	background-color:black ; opacity: 0.5;
+    float: left;
+    background-color:black;opacity:0.4;
 	color: #fff;
-	font-size: 2.5em;
+    font-size: 2.5em;
 }
-
 h1 span {
     position:absolute;
     right:0;
     width:0;
     background: black;
-    border-left: 2px solid #000;
     animation: escribir 5s steps(30);
 }
-div#imagen{
-  width:379px;
-  height:250px;
-  margin: 30px;
- background-image: url(../imagenes/ABOUTME.jpeg);
-}
-div#info{
-  position:absolute;
-  width:379px;
-  height:250px;
-  background-color: rgba(31, 31, 31, 0.9);
-  -webkit-transition: opacity 0.2;
-  -moz-transition: opacity 0.2;
-  opacity:0;
-}
-div#imagen:hover div#info{
-opacity: 1;
-}
-p#head{
-  position:absolute;
-  font-size: 24px;
-  text-align: center;
-}
-div#imagen2{
-  width:379px;
-  height:250px;
-  margin-left: 450px;
-  margin-top: -283px;
- background-image: url(../imagenes/future.jpg);
-}
-div#info2{
-  position: absolute;;
-  width:379px;
-  height:250px;
-  background-color: rgba(31, 31, 31, 0.9);
-  -webkit-transition: opacity 0.2;
-  -moz-transition: opacity 0.2;
-  opacity:0;
-}
-div#imagen2:hover div#info2{
-opacity: 1;
-}
-p#head2{
-  position:absolute;
-  font-size: 19px;
-  text-align: center;
-}
-div#imagen3{
-  width:379px;
-  height:250px;
-  margin-left: 870px;
-  margin-top: -250px;
- background-image: url(../imagenes/STUDIES.jpeg);
- background-repeat: no-repeat;
-}
-div#info3{
-  position: absolute;
-  width:379px;
-  height:250px;
-  background-color: rgba(31, 31, 31, 0.9);
-  -webkit-transition: opacity 0.2;
-  -moz-transition: opacity 0.2;
-  opacity:0;
-}
-div#imagen3:hover div#info3{
-opacity: 1;
-}
-p#head3{
-  position:absolute;
-  font-size: 18px;
-  text-align: center;
-}
-
 #contenedor{
-  position:absolute;
-  width:100%;
-  height:100%;
-  font-size:3em;
-  overflow:hidden;
-}
+    position:absolute;
+    width:100%;
+    height:100%;
+    font-size:3em;
+    overflow:hidden;
+  }
+  footer a {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1vw 2vw;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    color: white;
+  }
+  section{
+    overflow:hidden;
+    flex:1; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    height:auto;
+    }
+  div#imagen{
+    width:379px;
+    height:250px;
+    margin: 30px;
+   background-image: url(../imagenes/ABOUTME.jpeg);
+  }
+  div#info{
+    position:absolute;
+    width:379px;
+    height:250px;
+    background-color: rgba(31, 31, 31, 0.9);
+    -webkit-transition: opacity 0.2;
+    -moz-transition: opacity 0.2;
+    opacity:0;
+  }
+  div#imagen:hover div#info{
+  opacity: 1;
+  }
+  p#head{
+    position:absolute;
+    font-size: 20px;
+    text-align: center;
+  }
+  div#imagen2{
+    width:379px;
+    height:250px;
+    margin-left: 450px;
+    margin-top: -283px;
+   background-image: url(../imagenes/future.jpg);
+  }
+  div#info2{
+    position: absolute;
+    width:379px;
+    height:250px;
+    background-color: rgba(31, 31, 31, 0.9);
+    -webkit-transition: opacity 0.2;
+    -moz-transition: opacity 0.2;
+    opacity:0;
+  }
+  div#imagen2:hover div#info2{
+  opacity: 1;
+  }
+  p#head2{
+    position:absolute;
+    font-size: 20px;
+    text-align: center;
+  }
+  div#imagen3{
+    width:379px;
+    height:250px;
+    margin-left: 870px;
+    margin-top: -250px;
+   background-image: url(../imagenes/STUDIES.jpeg);
+   background-repeat: no-repeat;
+  }
+  div#info3{
+    position: absolute;
+    width:379px;
+    height:250px;
+    background-color: rgba(31, 31, 31, 0.9);
+    -webkit-transition: opacity 0.2;
+    -moz-transition: opacity 0.2;
+    opacity:0;
+  }
+  div#imagen3:hover div#info3{
+  opacity: 1;
+  }
+  p#head3{
+    position:absolute;
+    font-size: 20px;
+    text-align: center;
+  }
+  
 
-section{
-overflow:hidden;
-flex:1; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-width: auto;
-height:auto;
-background-color: gray;
-}
-footer {
-background-image: url(../imagenes/luces.gif);
-background-repeat: no-repeat center ;   
+.contenedor {
+	margin: auto;
+  display: table;
+  
 }
 .type {
 	margin: auto;
 	display: table;
 }
-.main{
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.principio{
-  color:beige;
-  text-align: center;
-  font-weight: 900;
-  font-size: 3rem;
-}
-.contenedor{
-    padding:2em;
-}
-
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    color: white;
-
-}
-footer a {
-  font-weight: bold;
-  font-size: 1rem;
-  padding: 1vw 2vw;
-  text-decoration: underline;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem;
-  color: white;
-}
-
-
 @keyframes escribir {
     from { width: 100% }
     to { width:0 }
 }
+@media (max-width: 768px) {
+ .contaier {
+   width: 768px;
+ }
+ section {
+   width: 768px;
+ }
+}
+
+@media (max-width: 600px) {
+  .contaier {
+    width: 600px;
+  }
+  section {
+    width: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contaier {
+    width: 768px;
+  }
+  section {
+    width: 768px;
+  }
